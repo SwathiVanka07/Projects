@@ -1,81 +1,43 @@
-# Quiz app
+# Python Projects – CLI, GUI (Tkinter), and Web (Flask)
 
-This is a simple command-line quiz game built using Python. The game will ask you 10 multiple-choice questions from different topics such as general knowledge, technology, science, and more. It will keep track of your score and give you feedback based on how well you did.
+This repository contains a collection of 9 projects developed using Python, with variations in user interface: Command Line (CLI), Desktop GUI using Tkinter, and Web app using Flask.
+Each application has been built in three formats to explore how a single idea can be implemented across different platforms.
 
-✅ What This Game Does
-
-1. Asks you 10 questions, one by one
-
-2. Each question has 4 answer options: A, B, C, or D
-
-3. You type your answer (A/B/C/D) and press Enter
-
-4. It tells you whether you got the answer right or wrong
-
-5. At the end, it shows your total score
-
-6. Gives you a message depending on your score (like "Great job!" or "Keep learning!")
-
-🛠 Requirements
-
-To run this game, you need:
-
-    Python 3 installed on your computer
-    
-You can check your version by typing:
-                 python --version
-
-▶️ How to Run the Game
-
-     1. Save the code into a Python file. For example, you can name it: quiz_game.py
-     
-     2. Open a terminal or command prompt
-     
-     3. Navigate to the folder where you saved the file. Example:
-     
-                                                             cd path-to-your-folder
-Run the game using:
-
-        python quiz_game.py
-        
-Follow the instructions on the screen.
-
-🧪 Example Question
-
-Q1: What is the capital of India?
-A. Mumbai
-B. Delhi
-C. Hyderabad
-D. Chennai
-
-Enter your answer (A/B/C/D): B
-
-Correct!
-
-📊 Score and Feedback
-
-At the end of the game, it shows your score like this:
+ ## Projects Overview
  
-  Your final score: 8 out of 10
-  
-  Great job!
+ ### 1. Quiz App
+ 
+Python (CLI): A simple terminal-based quiz where users answer multiple-choice questions.
 
-The feedback messages are:
+Tkinter: A GUI version with buttons, labels, and score display.
 
-10/10 → Excellent! You got all right!
+Flask: A web-based quiz app with HTML forms and score tracking.
 
-7-9 → Great job!
+### 2. To-Do List App
 
-5-6 → Good attempt!
+Python (CLI): Manage your tasks via the terminal – add, delete, and view tasks.
 
-Below 5 → Keep learning, Boss. You got this!
+Tkinter: A user-friendly GUI to manage tasks with buttons and listboxes.
 
+Flask: A web version to create, complete, and delete tasks from a browser.
 
+### 3. Weather App
 
-🙋‍♂️ Author
+Python (CLI): Fetches current weather data from an API and displays it in the terminal.
 
-    This game was created by Swathi Vanka.
+Tkinter: A GUI that takes city input and shows real-time weather details.
 
-📜 License
+Flask: A web app where users can search for weather information using a clean interface.
 
-     Free to use, share, and modify this code for learning or projects.
+### Technologies Used
+
+Python – Core programming language
+
+Tkinter – For desktop GUI applications
+
+Flask – For building lightweight web apps
+
+REST APIs – Used in Weather apps for live data
+
+### ✅ Purpose
+This collection demonstrates how the same project idea can be implemented across different platforms, helping to understand UI/UX considerations and backend logic in varied contexts.
