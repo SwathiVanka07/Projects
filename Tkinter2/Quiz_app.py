@@ -134,7 +134,7 @@ class QuizApp:
         final_label = tk.Label(self.root, text=result, font=("Arial", 16), wraplength=500, justify="center")
         final_label.pack(pady=50)
 
-# Run the app
+# Run the app 
 if __name__ == "__main__":
     root = tk.Tk()         # Create the main window
     app = QuizApp(root)     # Create an instance of QuizApp
