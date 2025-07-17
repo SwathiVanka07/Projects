@@ -1,6 +1,6 @@
 # Project 1
 
-## Quiz app using Tkinter
+## Quiz app using Tkinter 
 
 This is a simple yet interactive quiz application built using Python's Tkinter library. It presents users with a series of multiple-choice questions, tracks their score, and displays the result at the end based on performance.
 
