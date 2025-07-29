@@ -12,7 +12,7 @@ def get_db_connection():
     return pymysql.connect(
         host='localhost',
         user='root',
-        password='SW2003@th#7',  # change this to your MySQL password
+        password='password',  # change this to your MySQL password
         database='weather_app',
         cursorclass=pymysql.cursors.DictCursor
     )
