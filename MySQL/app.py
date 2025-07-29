@@ -19,7 +19,7 @@ def get_db_connection():
     return pymysql.connect(
         host='localhost',
         user='root',  # or your MySQL user
-        password='SW2003@th#7',  # replace with your actual password
+        password='password',  # replace with your actual mysql root password
         database='quiz_app',
         cursorclass=pymysql.cursors.DictCursor
     )
